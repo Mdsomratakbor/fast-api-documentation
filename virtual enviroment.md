@@ -24,3 +24,22 @@ Replace `<project-directory>` with the name of your project directory.
    python -m venv venv
 ```
 
+This command will create a directory named `venv` containing a Python interpreter and a copy of the standard Python library.
+
+4. **Activate the Virtual Environment**
+On Windows:
+```bash
+   venv\Scripts\activate
+```
+On Linux or MacOS
+```bash
+source venv/bin/activate
+```
+You should see `(venv)` in your command prompt, indicating that the virtual environment is activated.
+
+5. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+Replace `requirements.txt` with the name of your project's requirements file.
